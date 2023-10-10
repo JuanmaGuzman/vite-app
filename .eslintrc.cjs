@@ -15,4 +15,9 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  resolve: {
+    alias: {
+    '@mui/styled-engine': '@mui/styled-engine-sc'
+          },
+        },
 }
