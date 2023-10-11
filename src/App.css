@@ -85,34 +85,35 @@ nav {
 }
 
 
+/* Default styles */
+
 /* HOME */
 .home-banner-container {
   height: 980px;
   padding: 60px;
   background-color: #f8f4f4;
-  display: flex; /* Use flexbox to center content vertically */
-  justify-content: center; /* Horizontally center content */
-  align-items: center; /* Vertically center content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 .primary-heading {
-  font-size: 48px; /* Add 'px' to the font-size property */
+  font-size: 48px;
   font-weight: 400;
   color: #333;
 }
 .primary-text {
-  font-size: 38px; /* Add 'px' to the font-size property */
+  font-size: 38px;
   font-weight: 300;
   z-index: 10;
   color: #333;
 }
 .countdown-text {
-  font-size: 18px; /* Add 'px' to the font-size property */
+  font-size: 18px;
   font-weight: 300;
   z-index: 10;
   color: #333;
 }
-
 
 /* NOSOTROS */
 .nosotros-banner-container {
@@ -130,29 +131,28 @@ nav {
   background-color: #f8f4f4;
 }
 .row {
-  display: flex; /* Make the blocks in the row flex containers */
-  justify-content: center; /* Center the blocks horizontally */
+  display: flex;
+  justify-content: center;
   padding: 20px;
 }
 .block {
-  flex: 1; /* Distribute blocks evenly within the row */
-  padding: 20px; /* Add spacing around blocks */
+  flex: 1;
+  padding: 20px;
   margin: 20px;
-  text-align: center; /* Center-align the block content */
-  border: 1px solid #e1e1e1; /* Add a subtle border for separation */
-  border-radius: 8px; /* Add rounded corners for a card-like appearance */
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
   background-color: #f8f4f4;
 }
 .section-subtittle {
-  font-size: 24px; /* Adjust font size as needed */
+  font-size: 24px;
   font-weight: 600;
-  margin-bottom: 10px; /* Increase space below the subtitle */
+  margin-bottom: 10px;
 }
 .section-paragraph {
-  font-size: 18px; /* Adjust font size as needed */
-  margin-bottom: 10px; /* Increase space below paragraphs */
+  font-size: 18px;
+  margin-bottom: 10px;
 }
-
 
 /* ASISTENCIA */
 .asistencia-banner-container {
@@ -162,14 +162,13 @@ nav {
   background-color: #f8f4f4;
 }
 .asistencia-tittle {
-  font-size: 34px; /* You can adjust the font size as needed */
+  font-size: 34px;
   margin-bottom: 22px;
 }
 .asistencia-paragraph {
-  font-size: 18px; /* Adjust font size as needed */
-  margin-bottom: 10px; /* Increase space below paragraphs */
+  font-size: 18px;
+  margin-bottom: 10px;
 }
-
 
 /* REGALOS */
 .regalos-banner-container {
@@ -179,10 +178,9 @@ nav {
   background-color: #f8f4f4;
 }
 .regalos-paragraph {
-  width: 800px;
-  margin: 0 auto; /* This will center the element horizontally */
+  width: auto;
+  margin: 0 auto;
 }
-
 
 /* SPOTIFY */
 .spotify-banner-container {
@@ -192,75 +190,142 @@ nav {
   background-color: #f8f4f4;
 }
 .spotify-tittle {
-  font-size: 24px; /* You can adjust the font size as needed */
+  font-size: 24px;
   margin-bottom: 22px;
 }
 .spotify-row {
-  display: flex; /* Make the blocks in the row flex containers */
-  justify-content: center; /* Center the blocks horizontally */
-  padding-left: 120px;
-  padding-right: 120px;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .spotify-block {
-  flex: 1; /* Distribute blocks evenly within the row */
-  padding: 20px; /* Add spacing around blocks */
+  flex: 1;
+  padding: 20px;
   margin: 20px;
-  text-align: center; /* Center-align the block content */
+  text-align: center;
   background-color: #f8f4f4;
 }
 
 /* CSS for the Footer */
 .footer-section {
-  background-color: #333; /* Background color for the footer */
-  color: #fff; /* Text color for the footer */
-  padding: 20px; /* Add padding to the footer */
-  text-align: center; /* Center-align text horizontally within the footer */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 .footer-text {
-  font-size: 18px; /* Footer text font size */
-  margin: 5px 0; /* Add spacing above and below the text */
+  font-size: 18px;
+  margin: 5px 0;
 }
 
 .contact-icons {
-  margin-top: 15px; /* Add spacing above the icons */
+  margin-top: 15px;
 }
 
 .icon-link {
-  color: #fff; /* Icon link color */
-  margin: 0 10px; /* Add spacing between icons */
-  font-size: 24px; /* Icon size */
-  text-decoration: none; /* Remove underlines from links */
-  transition: color 0.3s; /* Smooth color transition on hover */
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 .icon-link:hover {
-  color: #007bff; /* Change icon color on hover */
+  color: #007bff;
 }
-
 
 /* Responsive styles */
-@media (max-width: 1000px) {
-  .navbar-links-container a {
-    margin-right: 1rem;
-    font-size: 1rem;
+@media (max-width: 768px) {
+  /* Adjust the styles for smaller screens */
+  .home-banner-container {
+    height: auto;
+    padding: 20px;
   }
-  .primary-button {
-    font-size: 1rem;
+  .primary-heading {
+    font-size: 36px;
   }
-  .home-bannerImage-container {
-    max-width: 600px;
+  .primary-text {
+    font-size: 24px;
+  }
+  .countdown-text {
+    font-size: 16px;
+  }
+
+  .nosotros-banner-container {
+    height: auto;
+    padding: 20px;
+  }
+
+  .informacion-banner-container {
+    height: auto;
+    padding: 60px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .block {
+    margin: 10px;
+    padding: 10px;
+  }
+  .section-subtittle {
+    font-size: 20px;
+  }
+  .section-paragraph {
+    font-size: 16px;
+  }
+
+  .asistencia-banner-container {
+    height: auto;
+    padding: 40px;
+  }
+  .asistencia-tittle {
+    font-size: 28px;
+  }
+  .asistencia-paragraph {
+    font-size: 16px;
+  }
+
+  .regalos-banner-container {
+    height: auto;
+    padding: 40px;
+  }
+
+  .regalos-paragraph {
+    font-size: 16px;
+  }
+
+  .spotify-banner-container {
+    height: auto;
+    padding: 40px;
+  }
+  .spotify-tittle {
+    font-size: 20px;
+  }
+  .spotify-row {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .spotify-block {
+    padding: 10px;
+    margin: 10px;
   }
 }
 
-@media (max-width: 800px) {
-  .nav-logo-container {
-    max-width: 140px;
-  }
-  .navbar-links-container {
-    display: none;
-  }
-  .navbar-menu-container {
-    display: flex;
-  }
+
+/* Add this CSS for responsive iframe */
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 76.25%; /* 16:9 aspect ratio (change as needed) */
+}
+
+.iframe-container iframe {
+  position: absolute;
+  padding: 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

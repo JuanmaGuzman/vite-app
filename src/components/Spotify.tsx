@@ -9,6 +9,7 @@ function Spotify() {
 
 	return (
 		<>
+			<h2 className="section-tittle">¡Disfrutemos todos la fiesta!</h2>
 			<div className="spotify-row">
 				<div className="spotify-block">
 					<h3 className="spotify-tittle">¿Qué canciones no puede faltar?</h3>
@@ -22,13 +23,15 @@ function Spotify() {
 				</div>
 
 				<div className="spotify-block">
-					<iframe
-						src="https://open.spotify.com/embed/playlist/37i9dQZEVXbL0GavIqMTeb?utm_source=generator&theme=0"
-						width="70%"
-						height="400"
-						frameBorder="0"
-						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-						loading="lazy"></iframe>
+					<div className="iframe-container">
+						<iframe
+							src="https://open.spotify.com/embed/playlist/37i9dQZEVXbL0GavIqMTeb?utm_source=generator&theme=0"
+							width="100%"
+							height="400"
+							frameBorder="0"
+							allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+							loading="lazy"></iframe>
+					</div>
 				</div>
 			</div>
 		</>
