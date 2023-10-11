@@ -126,7 +126,7 @@ nav {
 /* INFORMACIÓN */
 .informacion-banner-container {
   height: 980px;
-  padding: 160px 120px;
+  padding: 60px 120px;
   text-align: center;
   background-color: #f8f4f4;
 }
@@ -157,7 +157,7 @@ nav {
 /* ASISTENCIA */
 .asistencia-banner-container {
   height: auto;
-  padding: 80px 120px;
+  padding: 60px 120px;
   text-align: center;
   background-color: #f8f4f4;
 }
@@ -173,7 +173,7 @@ nav {
 /* REGALOS */
 .regalos-banner-container {
   height: 380px;
-  padding: 80px 120px;
+  padding: 60px 120px;
   text-align: center;
   background-color: #f8f4f4;
 }
@@ -185,6 +185,7 @@ nav {
 /* SPOTIFY */
 .spotify-banner-container {
   height: 680px;
+  padding: 60px 120px;
   padding: 80px;
   text-align: center;
   background-color: #f8f4f4;
@@ -236,12 +237,36 @@ nav {
   color: #007bff;
 }
 
+
+@media (max-width: 1000px) {
+  .navbar-links-container a {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  .primary-button {
+    font-size: 1rem;
+  }
+  .home-bannerImage-container {
+    max-width: 600px;
+  }
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   /* Adjust the styles for smaller screens */
+  .nav-logo-container {
+    max-width: 140px;
+  }
+  .navbar-links-container {
+    display: none;
+  }
+  .navbar-menu-container {
+    display: flex;
+  }
+
   .home-banner-container {
     height: auto;
-    padding: 20px;
+    padding: 60px;
   }
   .primary-heading {
     font-size: 36px;
@@ -255,7 +280,7 @@ nav {
 
   .nosotros-banner-container {
     height: auto;
-    padding: 20px;
+    padding: 60px;
   }
 
   .informacion-banner-container {
@@ -278,7 +303,7 @@ nav {
 
   .asistencia-banner-container {
     height: auto;
-    padding: 40px;
+    padding: 60px;
   }
   .asistencia-tittle {
     font-size: 28px;
@@ -289,7 +314,7 @@ nav {
 
   .regalos-banner-container {
     height: auto;
-    padding: 40px;
+    padding: 60px;
   }
 
   .regalos-paragraph {
@@ -298,21 +323,32 @@ nav {
 
   .spotify-banner-container {
     height: auto;
-    padding: 40px;
+    padding: 60px;
   }
+
   .spotify-tittle {
     font-size: 20px;
   }
+
   .spotify-row {
-    padding-left: 20px;
-    padding-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
   .spotify-block {
-    padding: 10px;
-    margin: 10px;
+    width: 100%;
+    margin-bottom: 0px; /* Add some space between the blocks */
+  }
+
+  .iframe-container {
+    padding-top: 26.25%; /* 16:9 aspect ratio (adjust as needed) */
+  }
+
+  .iframe-container iframe {
+    position: static;
   }
 }
-
 
 /* Add this CSS for responsive iframe */
 .iframe-container {
@@ -323,7 +359,6 @@ nav {
 
 .iframe-container iframe {
   position: absolute;
-  padding: 0px;
   top: 0;
   left: 0;
   width: 100%;
