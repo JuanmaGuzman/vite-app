@@ -35,6 +35,19 @@
   /* Add a box shadow for a subtle elevation effect */
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
 }
+.waze-button {
+  background-color: #66cfff;
+  color: #f8f4f4; /* Set the text color */
+  font-size: 18px; /* Adjust font size as needed */
+  padding: 10px 20px; /* Add padding around the text */
+  border: none; /* Remove the border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+  margin-top: 20px;
+  /* Add a box shadow for a subtle elevation effect */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
 .button:hover {
   background-color: rgb(132, 132, 132); /* Change the background color on hover */
 }

@@ -1,6 +1,12 @@
 import Image from "../assets/informacion.png";
 
 function Informacion() {
+	const openWaze = () => {
+		// If on a mobile device, attempt to open the Spotify app
+		window.location.href =
+			"https://www.waze.com/ul?ll=-33.644027,-70.667709&navigate=yes";
+	};
+
 	return (
 		<>
 			<img src={Image} alt="Informacion" className="draw-image" />
@@ -23,7 +29,7 @@ function Informacion() {
 
 				<div className="block">
 					<h3 className="section-subtittle">Otros</h3>
-					<p className="section-paragraph">Teñida formal</p>
+					<p className="section-paragraph">Tenida formal</p>
 					<p className="section-paragraph">Datos vanes, peluquería, etc</p>
 				</div>
 			</div>
@@ -34,13 +40,10 @@ function Informacion() {
 					width="100%"
 					height="400"
 					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-				<a
-					className="section-paragraph"
-					href="https://www.waze.com/ul?ll=-33.644027,-70.667709&navigate=yes"
-					target="_blank"
-					rel="noopener noreferrer">
-					Abrir en Waze
-				</a>
+
+				<button className="waze-button" onClick={openWaze}>
+					Abrir en waze
+				</button>
 			</div>
 		</>
 	);

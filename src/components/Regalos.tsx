@@ -1,7 +1,7 @@
 function Regalos() {
 	return (
 		<>
-			<h2 className="section-tittle">Regalos</h2>
+			<h2 className="section-tittle">Regalos 🎁</h2>
 			<p className="regalos-paragraph">
 				Nuestro mejor regalo es tu presencia, pero si quisieras contribuir con
 				nuestro <strong>proyecto de vida</strong>, puedes elegir nuestro regalo
