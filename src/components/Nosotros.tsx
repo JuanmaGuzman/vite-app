@@ -12,6 +12,15 @@ import Image5 from "../assets/f5.jpeg";
 import Image6 from "../assets/f6.jpeg";
 import Image7 from "../assets/f7.jpeg";
 import Image8 from "../assets/f8.jpeg";
+import Image9 from "../assets/f9.jpeg";
+import Image10 from "../assets/f10.jpeg";
+import Image11 from "../assets/f11.jpeg";
+import Image12 from "../assets/f12.jpeg";
+import Image13 from "../assets/f13.jpeg";
+import Image14 from "../assets/f14.jpeg";
+import Image15 from "../assets/f15.jpeg";
+import Image16 from "../assets/f16.jpeg";
+import Image17 from "../assets/f17.jpeg";
 
 function Nosotros() {
 	const itemData = [
@@ -54,6 +63,51 @@ function Nosotros() {
 			img: Image8,
 			title: "Title 8",
 			description: ":)",
+		},
+		{
+			img: Image9,
+			title: "Title 9",
+			description: "🎩👠",
+		},
+		{
+			img: Image10,
+			title: "",
+			description: ":)",
+		},
+		{
+			img: Image11,
+			title: "",
+			description: ":)",
+		},
+		{
+			img: Image12,
+			title: "¡Cheers!",
+			description: "¡Cheers 🍻!",
+		},
+		{
+			img: Image13,
+			title: "En el monumental 🔴⚪",
+			description: "En el monumental 🔴⚪",
+		},
+		{
+			img: Image14,
+			title: "Title 14",
+			description: "😎",
+		},
+		{
+			img: Image15,
+			title: "Title 15",
+			description: "Cerrito ⛰️",
+		},
+		{
+			img: Image16,
+			title: "Title 16",
+			description: "Sur 🌲",
+		},
+		{
+			img: Image17,
+			title: "Title 17",
+			description: "Europa 🤳",
 		},
 		// Add more items with imported images
 	];

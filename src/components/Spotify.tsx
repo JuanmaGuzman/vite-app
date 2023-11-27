@@ -1,10 +1,11 @@
 function Spotify() {
-	const playlistUrl = "https://open.spotify.com/playlist/yPI0iLOuoDb"; // Replace with your playlist URL
+	const playlistUrl =
+		"https://open.spotify.com/playlist/3vJBmPbjNuuAgkBqFqwGpE?si=bb40ff19073d4c7c"; // Replace with your playlist URL
 	const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 	const openSpotifyToAddSongs = () => {
 		// If on a mobile device, attempt to open the Spotify app
-		window.location.href = `spotify://playlist/yPI0iLOuoDb`;
+		window.location.href = playlistUrl;
 	};
 
 	return (
@@ -25,7 +26,7 @@ function Spotify() {
 				<div className="spotify-block">
 					<div className="iframe-container">
 						<iframe
-							src="https://open.spotify.com/embed/playlist/37i9dQZEVXbL0GavIqMTeb?utm_source=generator&theme=0"
+							src="https://open.spotify.com/embed/playlist/3vJBmPbjNuuAgkBqFqwGpE?utm_source=generator&theme=0"
 							width="100%"
 							height="400"
 							frameBorder="0"

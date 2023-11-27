@@ -6,6 +6,7 @@ import Regalos from "./Regalos";
 import Spotify from "./Spotify";
 import Footer from "./Footer";
 import Asistencia from "./Asistencia";
+import portada from "../assets/portada.jpeg";
 
 function Home() {
 	const [countdownText, setCountdownText] = useState("");
@@ -74,7 +75,7 @@ function Home() {
 	];
 
 	function calculateCountdown() {
-		const eventDate = new Date("2024-06-04T00:00:00");
+		const eventDate = new Date("2024-04-06T00:00:00");
 		const now = new Date().getTime();
 		const timeRemaining: number = eventDate.getTime() - now;
 
@@ -107,8 +108,14 @@ function Home() {
 		<div className="home-container">
 			<Navbar />
 			<div className="home-banner-container" id="inicio-section">
+				<div className="home-text-section"></div>
+				<img
+					src={portada}
+					alt="Foto de portada"
+					className="portada-img"
+					height={"800"}
+				/>
 				<div className="home-text-section">
-					<h1 className="primary-heading">Mariana & Damián</h1>
 					<h3 className="primary-text">06 | 04 | 2024</h3>
 					<p className="countdown-text">{countdownText}</p>
 				</div>
