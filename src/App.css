@@ -161,9 +161,7 @@ nav {
   position: relative;
   background: url('./assets/fondo.png') repeat;
   opacity: 1;
-  pointer-events: none;
 }
-
 /* INFORMACIÓN */
 .informacion-banner-container {
   height: 980px;
@@ -173,7 +171,6 @@ nav {
   position: relative;
   background: url('./assets/fondo.png') repeat;
   opacity: 1;
-  pointer-events: none;
 }
 .row {
   display: flex;
@@ -202,7 +199,7 @@ nav {
   padding: 20px;
   margin: 20px;
   text-align: center;
-  background-color: #F0F0F0;
+  background-color: #E7D7C9;
 }
 
 /* ASISTENCIA */
@@ -214,7 +211,6 @@ nav {
   position: relative;
   background: url('./assets/fondo.png') repeat;
   opacity: 1;
-  pointer-events: none;
 }
 .asistencia-tittle {
   font-size: 34px;
@@ -234,7 +230,6 @@ nav {
   position: relative;
   background: url('./assets/fondo.png') repeat;
   opacity: 1;
-  pointer-events: none;
 }
 .regalos-paragraph {
   width: auto;
@@ -251,7 +246,6 @@ nav {
   position: relative;
   background: url('./assets/fondo.png') repeat;
   opacity: 1;
-  pointer-events: none;
 }
 .spotify-tittle {
   font-size: 24px;
