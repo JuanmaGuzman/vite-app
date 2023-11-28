@@ -144,7 +144,7 @@ function Nosotros() {
 					height: 550,
 					alignContent: "center", // Center vertically
 					overflowY: "scroll",
-					backgroundColor: "#f8f4f4",
+					backgroundColor: "#E7D7C9",
 				}}>
 				<ImageList variant="masonry" cols={4} gap={8}>
 					{itemData.map((item) => (

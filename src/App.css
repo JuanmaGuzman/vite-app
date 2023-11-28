@@ -164,7 +164,7 @@ nav {
 }
 /* INFORMACIÓN */
 .informacion-banner-container {
-  height: 980px;
+  height: auto;
   padding: 60px 120px;
   text-align: center;
   content: '';
@@ -199,6 +199,7 @@ nav {
   padding: 20px;
   margin: 20px;
   text-align: center;
+  height: auto;
   background-color: #E7D7C9;
 }
 

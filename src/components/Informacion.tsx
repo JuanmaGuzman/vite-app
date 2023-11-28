@@ -40,7 +40,6 @@ function Informacion() {
 					width="100%"
 					height="400"
 					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-
 				<button className="waze-button" onClick={openWaze}>
 					Abrir en waze
 				</button>
