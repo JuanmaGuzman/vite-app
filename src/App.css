@@ -334,6 +334,9 @@ nav {
     height: auto;
     padding: 60px;
   }
+  .portada-flowers {
+    display: none;
+  }
   .primary-heading {
     font-size: 36px;
   }
@@ -405,6 +408,11 @@ nav {
   .spotify-block {
     width: 100%;
     margin-bottom: 0px; /* Add some space between the blocks */
+  }
+
+  .spotify-block-two {
+    width: 100%;
+    height: auto;
   }
 
   .iframe-container {

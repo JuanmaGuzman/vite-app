@@ -118,15 +118,14 @@ function Home() {
 			<Navbar />
 			<div className="home-banner-container" id="inicio-section">
 				<div className="home-images-container">
-					{images.map((image, index) => (
-						<img
-							key={index}
-							src={image.src}
-							alt={image.alt}
-							className={image.className}
-							height={"500"}
-						/>
-					))}
+					<img src={p1} alt="p1" className="portada-flowers" height={"500"} />
+					<img
+						src={portada}
+						alt="portada"
+						className="portada-principal"
+						height={"500"}
+					/>
+					<img src={p2} alt="p2" className="portada-flowers" height={"500"} />
 				</div>
 				<div className="home-text-section">
 					<h3 className="primary-text">06 | 04 | 2024</h3>
