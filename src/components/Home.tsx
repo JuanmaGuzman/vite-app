@@ -6,10 +6,19 @@ import Regalos from "./Regalos";
 import Spotify from "./Spotify";
 import Footer from "./Footer";
 import Asistencia from "./Asistencia";
+
+import p1 from "../assets/p1.png";
 import portada from "../assets/portada.jpeg";
+import p2 from "../assets/p2.png";
 
 function Home() {
 	const [countdownText, setCountdownText] = useState("");
+
+	const images = [
+		{ src: p1, alt: "Foto de portada" },
+		{ src: portada, alt: "Foto de portada", className: "portada-img" },
+		{ src: p2, alt: "Foto de portada" },
+	];
 
 	const itemData = [
 		{
@@ -108,13 +117,17 @@ function Home() {
 		<div className="home-container">
 			<Navbar />
 			<div className="home-banner-container" id="inicio-section">
-				<div className="home-text-section"></div>
-				<img
-					src={portada}
-					alt="Foto de portada"
-					className="portada-img"
-					height={"800"}
-				/>
+				<div className="home-images-container">
+					{images.map((image, index) => (
+						<img
+							key={index}
+							src={image.src}
+							alt={image.alt}
+							className={image.className}
+							height={"500"}
+						/>
+					))}
+				</div>
 				<div className="home-text-section">
 					<h3 className="primary-text">06 | 04 | 2024</h3>
 					<p className="countdown-text">{countdownText}</p>

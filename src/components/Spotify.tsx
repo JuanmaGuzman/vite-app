@@ -23,7 +23,7 @@ function Spotify() {
 					</button>
 				</div>
 
-				<div className="spotify-block">
+				<div className="spotify-block-two">
 					<div className="iframe-container">
 						<iframe
 							src="https://open.spotify.com/embed/playlist/3vJBmPbjNuuAgkBqFqwGpE?utm_source=generator&theme=0"
