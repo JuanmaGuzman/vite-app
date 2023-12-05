@@ -116,27 +116,39 @@ function Nosotros() {
 		<>
 			<img src={Image} alt="Nosotros" className="draw-image" />
 			<h2 className="section-tittle">Nosotros</h2>
+			<h2 className="section-tittle">🐶🐱🧉</h2>
 			<p className="section-paragraph">
-				Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
-				molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
-				fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
-				elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-				lectus. Class aptent taciti sociosqu ad litora torquent per conubia
-				nostra, per inceptos himenaeos. Praesent auctor purus luctus enim
-				egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse
-				ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi
-				convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-				Qorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis
-				molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
-				fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus
-				elit sed risus. Maecenas eget condimentum velit, sit amet feugiat
-				lectus. Class aptent taciti sociosqu ad litora torquent per conubia
-				nostra, per inceptos himenaeos. Praesent auctor purus luctus enim
-				egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse
-				ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi
-				convallis convallis diam sit amet lacinia. Aliquam in elementum tellus
-				Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna.
-				Curabitur vel bibendum lorem.
+				Nosotros… es una palabra que nos ha acompañado por más de 4 años, que
+				nos es tan fácil decir, que sentimos nos representa día a día y que nos
+				acompaña de forma natural casi desde el día que nos conocimos. Es que,
+				si nos detenemos a pensarlo un momento, esta es una palabra que con muy
+				poco, abarca mucho. Hemos estado largas horas pensando como resumir a
+				través de este texto que es lo que somos nosotros, y luego de darle
+				muchas vueltas les dejamos esta pequeña reseña, a ver si a ustedes les
+				hace sentido: Algunas historias parten en una fiesta, en un bar, en una
+				plaza o en cualquier espacio físico en donde se encuentran quienes están
+				destinados a hacerlo… pero bueno, este no es nuestro caso. La nuestra
+				comienza con una capitana, un capitán, un perro y miles de kilómetros de
+				por medio. Aunque para algunos sea difícil de entender, el siglo XXI
+				pegó fuerte en nosotros y, si bien nos conocíamos, nuestras primeras
+				interacciones fueron por una red social y gracias al famoso “Ringopido”.
+				Así partieron las primeras tímidas conversaciones, reacciones, fotos y
+				demases. Si bien todo era nerviosismo y aún no nos conocíamos, ambos
+				teníamos la sensación de que estábamos frente a algo distinto. Y fue
+				justamente esa sensación la que hizo que un 21 de Junio del 2019, mismo
+				día en que la capi aterrizó en Chile, el capi fuera a su encuentro…
+				ahora si… en un bar. Desde ese día han pasado muchas cosas: salidas,
+				paseos, un estallido social, una pandemia, una aventura en el Cajón del
+				Maipo, nuestro primer hogar, nuestra Mafi, una beca de dermatología,
+				casi una beca de psiquiatría, viajes y muchos otros momentos que han ido
+				formando los cimientos del nosotros. Tomando todo esto, nosotros es hoy
+				nuestra forma de ver la vida… es acompañarnos en las buenas y en las
+				malas, reírnos y llorar juntos, viajar, regalonear, bailar, boludear,
+				disfrutar de quienes nos rodean; es soñar, conversar, planificar y
+				concretar. Desde el 6 de abril, este nosotros suma un nuevo capítulo a
+				su historia, el cual queremos que comience acompañado de todos ustedes,
+				quienes son parte importante de nuestra historia. ¡Porque este nosotros
+				también es futuro y recién comienza!
 			</p>
 			<Box
 				sx={{

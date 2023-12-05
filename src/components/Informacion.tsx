@@ -29,8 +29,7 @@ function Informacion() {
 
 				<div className="block">
 					<h3 className="section-subtittle">Otros</h3>
-					<p className="section-paragraph">Tenida formal</p>
-					<p className="section-paragraph">Datos vanes, peluquería, etc.</p>
+					<p className="section-paragraph">Teñida formal</p>
 				</div>
 			</div>
 
