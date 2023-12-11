@@ -4,7 +4,7 @@ function Asistencia() {
 			<h2 className="section-tittle">¿Nos acompañas?</h2>
 			<p className="asistencia-paragraph">
 				Esperamos compartir este gran día junto a ti.{" "}
-				<strong>Por favor responde antes del 15 de Febrero de 2023.</strong>
+				<strong>Por favor responde antes del 15 de Febrero de 2024.</strong>
 			</p>
 			<div className="block">
 				<iframe
