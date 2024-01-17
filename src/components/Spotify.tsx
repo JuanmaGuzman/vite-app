@@ -21,6 +21,10 @@ function Spotify() {
 					<button className="button" onClick={openSpotifyToAddSongs}>
 						AGREGAR CANCIONES
 					</button>
+					<p className="section-paragraph">
+						(Si tienes problemas agregando canciones escríbenos a nosotros así
+						las agregamos por tí)
+					</p>
 				</div>
 
 				<div className="spotify-block-two">

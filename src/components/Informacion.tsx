@@ -16,7 +16,11 @@ function Informacion() {
 					<h3 className="section-subtittle">¿Cuándo?</h3>
 					<p className="section-paragraph">Sábado 6 de abril del 2024.</p>
 					<p className="section-paragraph">Hora inicio ceremonia: 17:00 hrs</p>
-					<p className="section-paragraph">Hora fin fiesta: 4:00 hrs</p>
+					<p className="section-paragraph">
+						Hora fin fiesta: 3:00 am (considerar que ese día cambian la hora y
+						cuando sean las 24:00 tendremos que retroceder el reloj a las 23:00
+						hrs)
+					</p>
 				</div>
 				<div className="block">
 					<h3 className="section-subtittle">¿Dónde?</h3>
