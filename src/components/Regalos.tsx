@@ -5,8 +5,9 @@ function Regalos() {
 			<p className="section-paragraph">
 				Nuestro mejor regalo es tu presencia, pero si quisieras contribuir con
 				nuestro <strong>proyecto de vida</strong>, puedes elegir nuestro regalo
-				en Novios Falabella o depositarnos directamente a nuestra cuenta de
-				banco. ¡Gracias!
+				en <strong>Novios Falabella</strong> o{" "}
+				<strong>depositarnos directamente</strong> a nuestra cuenta de banco.
+				¡Gracias!
 			</p>
 
 			<div className="row">
